@@ -1,0 +1,4 @@
+pipenv --rm 
+rm Pipfile
+rm Pipfile.lock 
+pipenv install flask psycopg2 psycopg2-binary flask-sqlalchemy gunicorn tensorflow==2.0.0a0 numpy==1.16.4
